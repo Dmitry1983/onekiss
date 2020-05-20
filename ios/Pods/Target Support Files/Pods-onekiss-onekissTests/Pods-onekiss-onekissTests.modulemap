@@ -1,0 +1,6 @@
+module Pods_onekiss_onekissTests {
+  umbrella header "Pods-onekiss-onekissTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_onekiss {
+  umbrella header "Pods-onekiss-umbrella.h"
+
+  export *
+  module * { export * }
+}
