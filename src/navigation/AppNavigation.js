@@ -15,6 +15,11 @@ import {
     setScreen09,
     setScreen10,
     setScreen11,
+    setScreen12,
+    setScreen13,
+    setScreen14,
+    setScreen15,
+    setScreen16,
     setScreenEnd
 } from '../screens/SetScreen'
 import { policyScreen } from '../screens/PolicyScreen'
@@ -91,6 +96,28 @@ function StackNavigator() {
                 name="setScreen11"
                 component={setScreen11}
             />
+
+            <Stack.Screen
+                name="setScreen12"
+                component={setScreen12}
+            />
+            <Stack.Screen
+                name="setScreen13"
+                component={setScreen13}
+            />
+            <Stack.Screen
+                name="setScreen14"
+                component={setScreen14}
+            />
+            <Stack.Screen
+                name="setScreen15"
+                component={setScreen15}
+            />
+            <Stack.Screen
+                name="setScreen16"
+                component={setScreen16}
+            />
+
             <Stack.Screen
                 name="setScreenEnd"
                 component={setScreenEnd}

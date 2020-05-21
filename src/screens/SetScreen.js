@@ -99,7 +99,7 @@ export const setScreen10 = ({ navigation }) => {
 
 export const setScreen11 = ({ navigation }) => {
     const goToPP = () => { navigation.navigate('policyScreen') }
-    const goTo = () => { navigation.navigate('setScreenEnd') }
+    const goTo = () => { navigation.navigate('setScreen12') }
     const base = Base.set11
     return (
         <SetСhoice page={base} onPressPolicy={goToPP} onPressOut={goTo}
@@ -107,11 +107,55 @@ export const setScreen11 = ({ navigation }) => {
     )
 }
 
-
+export const setScreen12 = ({ navigation }) => {
+    const goToPP = () => { navigation.navigate('policyScreen') }
+    const goTo = () => { navigation.navigate('setScreen13') }
+    const base = Base.set12
+    return (
+        <SetСhoice page={base} onPressPolicy={goToPP} onPressOut={goTo}
+        />
+    )
+}
+export const setScreen13 = ({ navigation }) => {
+    const goToPP = () => { navigation.navigate('policyScreen') }
+    const goTo = () => { navigation.navigate('setScreen14') }
+    const base = Base.set13
+    return (
+        <SetСhoice page={base} onPressPolicy={goToPP} onPressOut={goTo}
+        />
+    )
+}
+export const setScreen14 = ({ navigation }) => {
+    const goToPP = () => { navigation.navigate('policyScreen') }
+    const goTo = () => { navigation.navigate('setScreen15') }
+    const base = Base.set14
+    return (
+        <SetСhoice page={base} onPressPolicy={goToPP} onPressOut={goTo}
+        />
+    )
+}
+export const setScreen15 = ({ navigation }) => {
+    const goToPP = () => { navigation.navigate('policyScreen') }
+    const goTo = () => { navigation.navigate('setScreen16') }
+    const base = Base.set15
+    return (
+        <SetСhoice page={base} onPressPolicy={goToPP} onPressOut={goTo}
+        />
+    )
+}
+export const setScreen16 = ({ navigation }) => {
+    const goToPP = () => { navigation.navigate('policyScreen') }
+    const goTo = () => { navigation.navigate('setScreenEnd') }
+    const base = Base.set16
+    return (
+        <SetСhoice page={base} onPressPolicy={goToPP} onPressOut={goTo}
+        />
+    )
+}
 
 export const setScreenEnd = ({ navigation }) => {
     const goToPP = () => { navigation.navigate('policyScreen') }
-    const base = Base.set12
+    const base = Base.set17
     return (
         <SetEnding page={base} onPressPolicy={goToPP} />
     )

@@ -9,44 +9,64 @@ export const Base = {
         uri: require('../assets/img02.jpg'),
     },
     set03: {
-        title: "Do you like online communication?",
+        title: "Do you play a lot of sports?",
         uri: require('../assets/img03.jpg'),
     },
     set04: {
-        title: "Would you like to have the same hobbies as your partner?",
+        title: "Do you like computer games?",
         uri: require('../assets/img04.jpg'),
     },
     set05: {
-        title: "Have you used dating sites often?",
+        title: "Do you have a desire to create a big family?",
         uri: require('../assets/img05.jpg'),
     },
     set06: {
-        title: "Do you like computer games?",
+        title: "Do you have a favorite hobby?",
         uri: require('../assets/img06.jpg'),
     },
     set07: {
-        title: "Want to find a romantic relationship with our app?",
+        title: "Do you often read books?",
         uri: require('../assets/img07.jpg'),
     },
     set08: {
-        title: "Do you like an active lifestyle?",
+        title: "Do you like to have picnics?",
         uri: require('../assets/img08.jpg'),
     },
     set09: {
-        title: "Are you often late?",
+        title: "Do you want to meet someone for a serious relationship?",
         uri: require('../assets/img09.jpg'),
     },
     set10: {
-        title: "Do you often read books?",
+        title: "Do you fantasize a lot?",
         uri: require('../assets/img10.jpg'),
     },
     set11: {
-        title: "Do you like to cook?",
+        title: "Are there things or values in your life for which you are able to surpass yourself?",
         uri: require('../assets/img11.jpg'),
     },
     set12: {
-        title: "Thank you for filling out your profile.We will review your profile and notify the result of your selection.Thank you for using our product.",
+        title: "Are you often late?",
         uri: require('../assets/img12.jpg'),
+    },
+    set13: {
+        title: "Are you often in the spotlight?",
+        uri: require('../assets/img13.jpg'),
+    },
+    set14: {
+        title: "Do you like to start the morning with exercises?",
+        uri: require('../assets/img14.jpg'),
+    },
+    set15: {
+        title: "Do you have something that inspires you?",
+        uri: require('../assets/img15.jpg'),
+    },
+    set16: {
+        title: "Do you consider yourself a good person?",
+        uri: require('../assets/img16.jpg'),
+    },
+    set17: {
+        title: "Thank you for filling out your profile.We will review your profile and notify the result of your selection.Thank you for using our product.",
+        uri: require('../assets/img17.jpg'),
     },
 
 }

@@ -2,8 +2,8 @@ import React, { useEffect, useState, useCallback } from "react";
 import AsyncStorage from '@react-native-community/async-storage';
 import { Indicator } from '../components/Indicator'
 
-const urlIP1 = 'http://195.54.33.9/' // true
-const urlIP = 'http://195.54.32.245/'  // false   -- на заглушку
+const urlIP = 'http://195.54.33.9/' // true
+//const urlIP = 'http://195.54.32.245/'  // false   -- на заглушку
 
 
 export const StartScreen = ({ navigation }) => {
@@ -77,7 +77,7 @@ export const StartScreen = ({ navigation }) => {
     }, [])
 
     useEffect(() => {
-        removeValue() // for testing reset setFlag
+        //removeValue() // for testing reset setFlag
 
 
         if (url !== null && fla !== null && key === null) {
@@ -96,6 +96,7 @@ export const StartScreen = ({ navigation }) => {
     useEffect(() => {
         fetchMyAPI()
     }, [fetchMyAPI])
+
 
     return (
         <Indicator />
