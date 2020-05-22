@@ -8,7 +8,6 @@ import {
 } from 'react-native'
 
 import { Card3CB, CardCont, CardYN } from './Cards'
-import { Base } from '../base'
 
 const Policy = ({ onPressPolicy }) => {
     const { policy } = styles
